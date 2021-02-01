@@ -1,2 +1,2 @@
 streamlit
-google_cloud_firestore
+google-cloud-firestore
