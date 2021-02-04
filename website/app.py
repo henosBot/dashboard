@@ -1,6 +1,6 @@
 import streamlit as st
 import website.database as db
-import website.bot as bot
+from website.bot import bot
 
 def start():
     st.set_page_config(
