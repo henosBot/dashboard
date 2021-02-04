@@ -15,4 +15,4 @@ def start():
     try:
         exec(code)
     except:
-        st.error(traceback.format_exc())
+        st.error(traceback.print_exc())
