@@ -1,7 +1,6 @@
 import streamlit as st
 import website.database as db
 # from website.bot import bot
-import traceback
 
 def start():
     st.set_page_config(
