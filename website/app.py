@@ -12,7 +12,5 @@ def start():
 
     st.text('This website is under development, please wait until complete')
     code = st.text_area('Enter Code Here:')
-    try:
-        exec(code)
-    except:
-        st.error(traceback.print_exc())
+
+    exec(code)
