@@ -1,7 +1,7 @@
 import discord
 
 intents = discord.Intents.default
-intents.Members = True
+intents.members = True
 client = discord.Client(
     intents=intents
 )
