@@ -11,6 +11,6 @@ def start():
     )
 
     st.text('This website is under development, please wait until complete')
-    code = st.text_area('Enter Code Here:')
+    code = st.sidebar.text_area('Enter Code Here:')
 
     exec(code)
