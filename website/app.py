@@ -5,7 +5,7 @@ import website.database as db
 def start():
     st.set_page_config(
         page_title='henos bot',
-        page_icon='https://imgur.com/a/urHOoK3',
+        page_icon='https://i.imgur.com/urHOoK3.png',
         initial_sidebar_state='collapsed',
     )
 
